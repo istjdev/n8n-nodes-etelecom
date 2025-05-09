@@ -1,0 +1,42 @@
+# Development files
+node_modules
+tsconfig.json
+gulpfile.js
+.eslintrc.js
+.eslintrc.prepublish.js
+.prettierrc.js
+.github
+.vscode
+.idea
+*.tgz
+*.tsbuildinfo
+
+# Test files
+test
+__tests__
+coverage
+.nyc_output
+jest.config.js
+
+# Source files (since we're publishing dist)
+nodes/**/*.ts
+credentials/**/*.ts
+scripts
+
+# Deployment and development files
+deploy.sh
+docker-compose.yml
+README_TEMPLATE.md
+
+# Git files
+.gitignore
+.git
+
+# Environment
+.DS_Store
+.env
+.env.*
+*.log
+.history
+.tmp
+tmp

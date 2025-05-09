@@ -1,0 +1,26 @@
+{
+	"node": "n8n-nodes-base.etelecomZaloOaTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"subcategories": {
+		"Communication": ["Etelecom"]
+	},
+	"displayOptions": {
+		"show": {
+			"resource": ["trigger"]
+		}
+	},
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.etelecom.vn"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.etelecom.vn"
+			}
+		]
+	}
+}

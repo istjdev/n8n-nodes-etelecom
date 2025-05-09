@@ -1,0 +1,27 @@
+version: '3.8'
+
+# Docker Compose for local n8n development with ETelecom Zalo OA integration
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    restart: unless-stopped
+    ports:
+      - '5678:5678'
+    volumes:
+      # Mount local n8n data directory for persistent storage
+      - ~/.n8n:/home/node/.n8n
+      # Mount the dist directory of this node module into n8n's custom extensions directory
+      - ./dist:/home/node/.n8n/custom
+    environment:
+      # N8N environment variables
+      - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
+      - N8N_LOG_LEVEL=debug
+      # Recommended: Uncomment to set timezone to match your local machine
+      # - GENERIC_TIMEZONE=Asia/Ho_Chi_Minh
+    networks:
+      - n8n-dev
+
+# Create a dedicated network for n8n
+networks:
+  n8n-dev:
+    driver: bridge
