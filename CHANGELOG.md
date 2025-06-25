@@ -2,6 +2,13 @@
 
 All notable changes to the "n8n-nodes-etelecom" package will be documented in this file.
 
+## 0.1.3 - 2025-06-25
+
+### Updates
+
+- Fixed credentials file naming convention to comply with n8n standards
+- Updated package structure for better compatibility
+
 ## 0.1.2 - 2025-06-25
 
 ### Updates
