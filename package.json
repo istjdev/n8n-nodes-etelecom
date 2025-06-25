@@ -41,11 +41,12 @@
 		"credentials": [
 			"dist/credentials/ETelecomApi.credentials.js"
 		],
-		"nodes": [
-			"dist/nodes/EtelecomZaloOaSendMessage/EtelecomZaloOaSendMessage.node.js",
-			"dist/nodes/EtelecomZaloOaTrigger/EtelecomZaloOaTrigger.node.js"
-		]
-	},
+                "nodes": [
+                        "dist/nodes/EtelecomZaloOaSendMessage/EtelecomZaloOaSendMessage.node.js",
+                        "dist/nodes/EtelecomZaloOaTrigger/EtelecomZaloOaTrigger.node.js",
+                        "dist/nodes/EtelecomZaloOaSendZns/EtelecomZaloOaSendZns.node.js"
+                ]
+        },
 	"devDependencies": {
 		"@typescript-eslint/parser": "^7.15.0",
 		"eslint": "^8.57.1",

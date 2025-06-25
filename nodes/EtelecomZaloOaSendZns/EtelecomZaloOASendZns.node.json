@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-base.etelecomZaloOaSendZns",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"subcategories": {
+		"Communication": ["ETelecom"]
+	},
+	"displayOptions": {
+		"show": {
+			"resource": ["zns"]
+		}
+	},
+	"resources": {
+		"credentialDocumentation": [{ "url": "https://docs.etelecom.vn" }],
+		"primaryDocumentation": [{ "url": "https://docs.etelecom.vn" }]
+	}
+}
