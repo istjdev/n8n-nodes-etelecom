@@ -2,6 +2,13 @@
 
 All notable changes to the "n8n-nodes-etelecom" package will be documented in this file.
 
+## 0.1.1 - 2025-06-25
+
+### Updates
+
+- Added ETelecom Zalo OA Send ZNS node for sending ZNS messages
+- Bug fixes and performance improvements
+
 ## 0.1.0 - 2025-05-08
 
 ### Initial Release
