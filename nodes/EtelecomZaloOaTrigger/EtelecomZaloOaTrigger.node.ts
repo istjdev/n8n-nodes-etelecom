@@ -12,9 +12,9 @@ import {
 	NodeOperationError,
 } from 'n8n-workflow';
 
-export class EtelecomZaloOaTrigger implements INodeType {
+export class eTelecomZaloOaTrigger implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Etelecom Zalo Oa Trigger',
+		displayName: 'eTelecom Zalo Oa Trigger',
 		name: 'etelecomZaloOaTrigger',
 		icon: 'file:etelecom.svg',
 		group: ['trigger'],
@@ -22,7 +22,7 @@ export class EtelecomZaloOaTrigger implements INodeType {
 		subtitle: '={{$parameter["oaId"]}}',
 		description: 'Handle Zalo Oa webhook events',
 		defaults: {
-			name: 'Etelecom Zalo Oa Trigger',
+			name: 'eTelecom Zalo Oa Trigger',
 		},
 		// @ts-ignore
 		inputs: [],
@@ -340,3 +340,6 @@ export class EtelecomZaloOaTrigger implements INodeType {
 		};
 	}
 }
+
+// For backward compatibility
+export const EtelecomZaloOaTrigger = eTelecomZaloOaTrigger;

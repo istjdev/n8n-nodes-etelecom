@@ -11,17 +11,17 @@ import {
 	NodeOperationError,
 } from 'n8n-workflow';
 
-export class EtelecomZaloOaSendZns implements INodeType {
+export class eTelecomZaloOaSendZns implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Etelecom Zalo Oa Send ZNS',
+		displayName: 'eTelecom Zalo Oa Send ZNS',
 		name: 'etelecomZaloOaSendZns',
 		icon: 'file:etelecom.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
-		description: 'Send ZNS via Etelecom Zalo OA',
+		description: 'Send ZNS via eTelecom Zalo OA',
 		defaults: {
-			name: 'Etelecom Zalo Oa Send ZNS',
+			name: 'eTelecom Zalo Oa Send ZNS',
 		},
 		// @ts-ignore
 		inputs: ['main'],
@@ -288,3 +288,6 @@ export class EtelecomZaloOaSendZns implements INodeType {
 		return [returnData];
 	}
 }
+
+// For backward compatibility
+export const EtelecomZaloOaSendZns = eTelecomZaloOaSendZns;

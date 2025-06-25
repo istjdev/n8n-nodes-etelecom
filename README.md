@@ -1,15 +1,15 @@
 # n8n-nodes-etelecom
 
-![ETelecom Zalo OA Banner](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![eTelecom Zalo OA Banner](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-This integration package provides nodes to connect [ETelecom Zalo OA](https://etelecom.vn) services with [n8n](https://n8n.io), allowing you to send and receive Zalo OA messages through ETelecom in your n8n workflows.
+This integration package provides nodes to connect [eTelecom Zalo OA](https://etelecom.vn) services with [n8n](https://n8n.io), allowing you to send and receive Zalo OA messages through eTelecom in your n8n workflows.
 
 ## Features
 
 This package currently provides the following nodes:
 
-- **ETelecom Zalo OA Send Message**: Send text messages from a Zalo OA account to Zalo users
-- **ETelecom Zalo OA Trigger**: Trigger workflows when receiving webhook events from Zalo OA (e.g., incoming messages, messaging status)
+- **eTelecom Zalo OA Send Message**: Send text messages from a Zalo OA account to Zalo users
+- **eTelecom Zalo OA Trigger**: Trigger workflows when receiving webhook events from Zalo OA (e.g., incoming messages, messaging status)
 
 ## Installation
 
@@ -45,16 +45,16 @@ docker run -it --rm \
 
 ## Usage
 
-After installation, the ETelecom Zalo OA nodes will be available in the n8n workflow editor under the "ETelecom" category.
+After installation, the eTelecom Zalo OA nodes will be available in the n8n workflow editor under the "eTelecom" category.
 
 ### Configuration Requirements
 
-1. You need an ETelecom account with API access
-2. Add ETelecom API credentials to n8n:
-   - API Domain (typically the ETelecom server address)
+1. You need an eTelecom account with API access
+2. Add eTelecom API credentials to n8n:
+   - API Domain (typically the eTelecom server address)
    - Your API Token
 
-### ETelecom Zalo OA Send Message
+### eTelecom Zalo OA Send Message
 
 This node allows you to send text messages from your Zalo OA account to Zalo users. Parameters include:
 
@@ -62,14 +62,14 @@ This node allows you to send text messages from your Zalo OA account to Zalo use
 - **User ID**: The ID of the Zalo user you want to send the message to
 - **Message**: Text message content
 
-### ETelecom Zalo OA Trigger
+### eTelecom Zalo OA Trigger
 
-This node creates a webhook endpoint and triggers your workflow when Zalo OA events are received through ETelecom. To use:
+This node creates a webhook endpoint and triggers your workflow when Zalo OA events are received through eTelecom. To use:
 
-1. Add the ETelecom Zalo OA Trigger node to your workflow
+1. Add the eTelecom Zalo OA Trigger node to your workflow
 2. Select the Zalo OA account to receive events from
 3. Activate the workflow
-4. The node will automatically register the webhook URL with ETelecom for the selected Zalo OA account
+4. The node will automatically register the webhook URL with eTelecom for the selected Zalo OA account
 5. Your workflow will now be triggered whenever there's an event from the selected OA account
 
 ## Development

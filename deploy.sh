@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ETelecom Zalo OA Integration for n8n - Local Development Deploy Script
+# eTelecom Zalo OA Integration for n8n - Local Development Deploy Script
 # This script helps developers build and deploy the node package to a local n8n instance
 
 # Get the package name from package.json
