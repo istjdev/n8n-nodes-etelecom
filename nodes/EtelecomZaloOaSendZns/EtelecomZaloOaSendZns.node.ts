@@ -23,7 +23,9 @@ export class EtelecomZaloOaSendZns implements INodeType {
 		defaults: {
 			name: 'Etelecom Zalo Oa Send ZNS',
 		},
+		// @ts-ignore
 		inputs: ['main'],
+		// @ts-ignore
 		outputs: ['main'],
 		credentials: [
 			{
@@ -52,7 +54,7 @@ export class EtelecomZaloOaSendZns implements INodeType {
 				name: 'development',
 				type: 'boolean',
 				default: false,
-				description: 'Send in development mode',
+				description: 'Whether to send in development mode',
 			},
 			{
 				displayName: 'Zalo Official Account Name or ID',
@@ -64,7 +66,7 @@ export class EtelecomZaloOaSendZns implements INodeType {
 				default: '',
 				required: true,
 				description:
-					'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+					'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>',
 			},
 			{
 				displayName: 'Phone',
@@ -84,14 +86,13 @@ export class EtelecomZaloOaSendZns implements INodeType {
 				default: '',
 				required: true,
 				description:
-					'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+					'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>',
 			},
 			{
 				displayName: 'Tracking ID',
 				name: 'trackingId',
 				type: 'string',
 				default: '',
-				required: false,
 				description: 'Tracking identifier',
 			},
 			{
