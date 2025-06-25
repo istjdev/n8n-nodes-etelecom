@@ -82,6 +82,10 @@ export class eTelecomZaloOaRequestConsent implements INodeType {
 						name: 'Video',
 						value: 'video',
 					},
+					{
+						name: 'Audio and Video',
+						value: 'audio_and_video',
+					},
 				],
 				default: 'audio',
 				required: true,
@@ -93,24 +97,24 @@ export class eTelecomZaloOaRequestConsent implements INodeType {
 				type: 'options',
 				options: [
 					{
-						name: 'Customer Support',
-						value: 'customer_support',
+						name: 'Delivery Notification',
+						value: 'delivery_notification',
 					},
 					{
-						name: 'Delivery Consulting',
-						value: 'delivery_consulting',
+						name: 'Flight Announcement',
+						value: 'flight_announcement',
 					},
 					{
-						name: 'Order Consulting',
-						value: 'order_consulting',
-					},
-					{
-						name: 'Payment Consulting',
-						value: 'payment_consulting',
+						name: 'Order/Appointment Confirmation',
+						value: 'order_appointment_confirmation',
 					},
 					{
 						name: 'Product/Service Consulting',
 						value: 'product_service_consulting',
+					},
+					{
+						name: 'Update Order',
+						value: 'update_order',
 					},
 				],
 				default: 'product_service_consulting',
