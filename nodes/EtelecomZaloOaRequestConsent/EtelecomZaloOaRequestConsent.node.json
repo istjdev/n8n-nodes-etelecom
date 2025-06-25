@@ -1,0 +1,22 @@
+{
+	"node": "n8n-nodes-base.etelecomZaloOaRequestConsent",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"subcategories": {
+		"Communication": ["eTelecom"]
+	},
+	"displayOptions": {
+		"show": {
+			"resource": ["consent"]
+		}
+	},
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.etelecom.vn"
+			}
+		],
+		"primaryDocumentation": []
+	}
+}
