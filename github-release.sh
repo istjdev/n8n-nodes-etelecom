@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ETelecom Zalo OA Integration for n8n - GitHub Release Script
+# eTelecom Zalo OA Integration for n8n - GitHub Release Script
 # This script helps create a new release on GitHub
 
 # Set error handling

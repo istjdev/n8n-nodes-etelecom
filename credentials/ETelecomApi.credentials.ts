@@ -5,9 +5,9 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class ETelecomApi implements ICredentialType {
+export class eTelecomApi implements ICredentialType {
 	name = 'eTelecomApi';
-	displayName = 'ETelecom API';
+	displayName = 'eTelecom API';
 	documentationUrl = 'https://etelecom.vn/docs';
 	properties: INodeProperties[] = [
 		{
@@ -55,3 +55,6 @@ export class ETelecomApi implements ICredentialType {
 		},
 	};
 }
+
+// For backward compatibility
+export const ETelecomApi = eTelecomApi;

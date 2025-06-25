@@ -1,6 +1,6 @@
 version: '3.8'
 
-# Docker Compose for local n8n development with ETelecom Zalo OA integration
+# Docker Compose for local n8n development with eTelecom Zalo OA integration
 services:
   n8n:
     image: n8nio/n8n:latest
