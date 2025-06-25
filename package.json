@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-etelecom",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n nodes for eTelecom integration",
 	"keywords": [
 		"n8n-community-node-package",
@@ -45,7 +45,8 @@
 			"dist/nodes/EtelecomZaloOaSendMessage/EtelecomZaloOaSendMessage.node.js",
 			"dist/nodes/EtelecomZaloOaTrigger/EtelecomZaloOaTrigger.node.js",
 			"dist/nodes/EtelecomZaloOaSendZns/EtelecomZaloOaSendZns.node.js",
-			"dist/nodes/EtelecomZaloOaRequestUserInfo/EtelecomZaloOaRequestUserInfo.node.js"
+			"dist/nodes/EtelecomZaloOaRequestUserInfo/EtelecomZaloOaRequestUserInfo.node.js",
+			"dist/nodes/EtelecomZaloOaRequestConsent/EtelecomZaloOaRequestConsent.node.js"
 		]
 	},
 	"devDependencies": {
