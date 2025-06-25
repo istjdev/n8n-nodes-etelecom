@@ -10,6 +10,8 @@ This package currently provides the following nodes:
 
 - **eTelecom Zalo OA Send Message**: Send text messages from a Zalo OA account to Zalo users
 - **eTelecom Zalo OA Trigger**: Trigger workflows when receiving webhook events from Zalo OA (e.g., incoming messages, messaging status)
+- **eTelecom Zalo OA Request User Info**: Request user information from a Zalo OA account
+- **eTelecom Zalo OA Send ZNS**: Send ZNS messages from a Zalo OA account to Zalo users
 
 ## Installation
 
@@ -71,6 +73,13 @@ This node creates a webhook endpoint and triggers your workflow when Zalo OA eve
 3. Activate the workflow
 4. The node will automatically register the webhook URL with eTelecom for the selected Zalo OA account
 5. Your workflow will now be triggered whenever there's an event from the selected OA account
+
+### eTelecom Zalo OA Request User Info
+
+This node allows you to request user information from your Zalo OA account. Parameters include:
+
+- **Zalo Official Account**: Select the Zalo OA account you want to request information from
+- **Zalo User ID**: The ID of the Zalo user you want to request information for
 
 ## Development
 

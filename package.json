@@ -44,7 +44,8 @@
 		"nodes": [
 			"dist/nodes/EtelecomZaloOaSendMessage/EtelecomZaloOaSendMessage.node.js",
 			"dist/nodes/EtelecomZaloOaTrigger/EtelecomZaloOaTrigger.node.js",
-			"dist/nodes/EtelecomZaloOaSendZns/EtelecomZaloOaSendZns.node.js"
+			"dist/nodes/EtelecomZaloOaSendZns/EtelecomZaloOaSendZns.node.js",
+			"dist/nodes/EtelecomZaloOaRequestUserInfo/EtelecomZaloOaRequestUserInfo.node.js"
 		]
 	},
 	"devDependencies": {
