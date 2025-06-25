@@ -39,7 +39,7 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/ETelecomApi.credentials.js"
+			"dist/credentials/eTelecomApi.credentials.js"
 		],
 		"nodes": [
 			"dist/nodes/EtelecomZaloOaSendMessage/EtelecomZaloOaSendMessage.node.js",
