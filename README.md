@@ -12,6 +12,7 @@ This package currently provides the following nodes:
 - **eTelecom Zalo OA Trigger**: Trigger workflows when receiving webhook events from Zalo OA (e.g., incoming messages, messaging status)
 - **eTelecom Zalo OA Request User Info**: Request user information from a Zalo OA account
 - **eTelecom Zalo OA Send ZNS**: Send ZNS messages from a Zalo OA account to Zalo users
+- **eTelecom Zalo OA Request Consent**: Request consent permissions from Zalo users
 
 ## Installation
 
@@ -80,6 +81,14 @@ This node allows you to request user information from your Zalo OA account. Para
 
 - **Zalo Official Account**: Select the Zalo OA account you want to request information from
 - **Zalo User ID**: The ID of the Zalo user you want to request information for
+
+### eTelecom Zalo OA Request Consent
+
+This node allows you to request consent permissions from Zalo users for your Zalo OA account. Parameters include:
+
+- **Zalo Official Account**: Select the Zalo OA account you want to request consent for
+- **Zalo User ID**: The ID of the Zalo user you want to request permissions from
+- **Scopes**: The permission scopes you want to request from the user
 
 ## Development
 

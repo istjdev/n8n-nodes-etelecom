@@ -40,4 +40,13 @@ module.exports = {
 		'dist/nodes/EtelecomZaloOaRequestUserInfo/etelecom.svg':
 			'dist/nodes/EtelecomZaloOaRequestUserInfo/etelecom.svg',
 	},
+
+	etelecomZaloOaRequestConsent: {
+		'dist/nodes/EtelecomZaloOaRequestConsent/EtelecomZaloOaRequestConsent.node.js':
+			'dist/nodes/EtelecomZaloOaRequestConsent/EtelecomZaloOaRequestConsent.node.js',
+		'dist/nodes/EtelecomZaloOaRequestConsent/EtelecomZaloOaRequestConsent.node.json':
+			'dist/nodes/EtelecomZaloOaRequestConsent/EtelecomZaloOaRequestConsent.node.json',
+		'dist/nodes/EtelecomZaloOaRequestConsent/etelecom.svg':
+			'dist/nodes/EtelecomZaloOaRequestConsent/etelecom.svg',
+	},
 };
