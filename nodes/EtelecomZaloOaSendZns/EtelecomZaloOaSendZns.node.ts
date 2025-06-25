@@ -193,10 +193,10 @@ export class EtelecomZaloOaSendZns implements INodeType {
 						});
 					}
 
-					return response.templates.map((tpl: { name: string; template_id: number }) => ({
-						name: tpl.name,
+					return response.templates.map((tpl: { template_name: string; template_id: number; type: string; price: number }) => ({
+						name: tpl.template_name,
 						value: tpl.template_id,
-						description: `Template ID: ${tpl.template_id}`,
+						description: `Type: ${tpl.type}, ID: ${tpl.template_id}, Price: ${tpl.price}`,
 					}));
 				} catch (error) {
 					throw new NodeApiError(this.getNode(), error);
