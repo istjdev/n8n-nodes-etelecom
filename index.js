@@ -1,4 +1,16 @@
 module.exports = {
+	etelecomZaloOaCheckConsent: {
+		// Regular node
+		'dist/nodes/EtelecomZaloOaCheckConsent/EtelecomZaloOaCheckConsent.node.js':
+			'dist/nodes/EtelecomZaloOaCheckConsent/EtelecomZaloOaCheckConsent.node.js',
+		// Static data needed by the node
+		'dist/nodes/EtelecomZaloOaCheckConsent/EtelecomZaloOaCheckConsent.node.json':
+			'dist/nodes/EtelecomZaloOaCheckConsent/EtelecomZaloOaCheckConsent.node.json',
+		// Icons
+		'dist/nodes/EtelecomZaloOaCheckConsent/etelecom.svg':
+			'dist/nodes/EtelecomZaloOaTrigger/etelecom.svg',
+	},
+
 	etelecomZaloOaTrigger: {
 		// Regular node
 		'dist/nodes/EtelecomZaloOaTrigger/EtelecomZaloOaTrigger.node.js':

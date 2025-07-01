@@ -2,6 +2,13 @@
 
 All notable changes to the "n8n-nodes-etelecom" package will be documented in this file.
 
+## 0.2.0 - 2025-07-01
+
+### Added
+
+- New ETelecom Zalo OA Check Consent node to check user consent status
+- Updated documentation with new node information
+
 ## 0.1.3 - 2025-06-25
 
 ### Updates
