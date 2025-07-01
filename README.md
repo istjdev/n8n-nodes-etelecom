@@ -13,6 +13,7 @@ This package currently provides the following nodes:
 - **eTelecom Zalo OA Request User Info**: Request user information from a Zalo OA account
 - **eTelecom Zalo OA Send ZNS**: Send ZNS messages from a Zalo OA account to Zalo users
 - **eTelecom Zalo OA Request Consent**: Request consent permissions from Zalo users
+- **eTelecom Zalo OA Check Consent**: Check consent status of a phone number with a Zalo OA account
 
 ## Installation
 
@@ -87,8 +88,16 @@ This node allows you to request user information from your Zalo OA account. Para
 This node allows you to request consent permissions from Zalo users for your Zalo OA account. Parameters include:
 
 - **Zalo Official Account**: Select the Zalo OA account you want to request consent for
-- **Zalo User ID**: The ID of the Zalo user you want to request permissions from
-- **Scopes**: The permission scopes you want to request from the user
+- **Phone**: The phone number of the user you want to request permissions from
+- **Call Type**: The type of call permission to request (audio, video, or both)
+- **Reason Code**: The purpose for requesting consent
+
+### eTelecom Zalo OA Check Consent
+
+This node allows you to check the consent status of a phone number with your Zalo OA account. Parameters include:
+
+- **Zalo Official Account**: Select the Zalo OA account you want to check consent status for
+- **Phone**: The phone number to check consent status for
 
 ## Development
 
