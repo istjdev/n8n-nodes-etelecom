@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-etelecom",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "n8n nodes for eTelecom integration",
 	"keywords": [
 		"n8n-community-node-package",
@@ -9,14 +9,14 @@
 		"zalo-oa"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/isfjdev/n8n-nodes-etelecom",
+	"homepage": "https://github.com/istjdev/n8n-nodes-etelecom",
 	"author": {
-		"name": "isfjdev",
-		"email": "isfjdev@gmail.com"
+		"name": "istjdev",
+		"email": "istjdev@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/isfjdev/n8n-nodes-etelecom.git"
+		"url": "https://github.com/istjdev/n8n-nodes-etelecom.git"
 	},
 	"engines": {
 		"node": ">=18.10",
@@ -26,8 +26,8 @@
 	"main": "index.js",
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
-		"build": "tsc && gulp build:icons",
-		"dev": "tsc --watch",
+		"build": "npx tsc && gulp build:icons",
+		"dev": "npx tsc --watch",
 		"format": "prettier nodes credentials --write",
 		"lint": "eslint nodes credentials package.json",
 		"lintfix": "eslint nodes credentials package.json --fix",

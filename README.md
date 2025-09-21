@@ -111,7 +111,7 @@ To develop this project, you need:
 
 ### Local Development
 
-1. Clone the repo: `git clone https://github.com/isfjdev/n8n-nodes-etelecom.git`
+1. Clone the repo: `git clone https://github.com/istjdev/n8n-nodes-etelecom.git`
 2. Install dependencies: `pnpm install`
 3. Compile TypeScript code: `pnpm build`
 4. Link the package to local n8n: `pnpm link`
